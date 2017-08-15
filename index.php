@@ -7,7 +7,7 @@ $q      = $_GET['q'];
 if(isset($_GET['start'])){
   $rs     = [$_GET['start']];
 }else{
-  $rs     = [0,100,200,300];
+  $rs     = [0,100,200];
 }
 
 
