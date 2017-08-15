@@ -1,8 +1,4 @@
 <?php
-/*
-  Siap Crot
-*/
-
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 
@@ -11,7 +7,7 @@ $q      = $_GET['q'];
 if(isset($_GET['start'])){
   $rs     = [$_GET['start']];
 }else{
-  $rs     = [0,100,200];
+  $rs     = [0,100,200,300];
 }
 
 
